@@ -1,0 +1,23 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2453052416	Game_Status			\Default Work Unit\Game_Status	
+	2672297998	Train_Status			\Default Work Unit\Train_Status	
+
+State	ID	Name	State Group			Notes
+	221232726	Lose	Game_Status			
+	748895195	None	Game_Status			
+	979765101	Win	Game_Status			
+	748895195	None	Train_Status			
+	3083640288	Derailment	Train_Status			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	930414264	Lose	Game_Status	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

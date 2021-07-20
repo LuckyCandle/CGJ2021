@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd16b2be8f71afa408dce2aeebee9b89, type: 3}
+  m_Name: BE226DD0-5CE1-456A-A4F0-FC54CDD7CB9A
+  m_EditorClassIdentifier: 
+  objectName: Derailment
+  id: 3083640288
+  guid: BE226DD0-5CE1-456A-A4F0-FC54CDD7CB9A

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{86571F4A-80B1-445F-ACFF-0701A9D75E3B}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{86571F4A-80B1-445F-ACFF-0701A9D75E3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main" ID="{4925BABE-FD8B-40B5-B593-8B393BC6F3FD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Initialization" ID="{B87F2085-151D-4DA2-94ED-AA2E42BAF881}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Derailment" ID="{BE226DD0-5CE1-456A-A4F0-FC54CDD7CB9A}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Obstacle_Break" ID="{45F8F3BC-59A2-498C-B330-A4A7875351F0}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Initialization_no_music" ID="{FB050DFF-D477-4104-87AF-53A54C6FC28A}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Return" ID="{C87E2531-38FF-4C86-AED2-365BAD6F7601}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Chara_Injured" ID="{E7B62C7F-70E9-4CB1-8926-1277C2B29572}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Light_On" ID="{4840DF32-AF1D-4C5A-A9BD-984BB9CED444}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fuel_Pickup" ID="{2E79C784-9FEB-4EBC-BAB8-51B2C6CE9F10}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Win" ID="{A38FC3F1-3ABC-47B7-91D6-0F589C5F7477}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Light_Off" ID="{A8764CE0-B750-4C73-A221-F1A65D51C575}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fuel_Add" ID="{B44649D8-C2C7-4053-8539-69466F57B20B}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gameover" ID="{E12C11A2-AAE8-4E89-A6EF-82DF4359E031}" WorkUnitID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{98C34BC8-88AF-451F-BFFB-627CD127A2EA}"/>
+							<Value>0.43</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Fuel" ID="{D5B403BB-970D-479B-812E-931B9417D47A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Win" ID="{A27698E9-E10B-40F6-98C5-615930A73AF1}"/>
+						<CurrentStateRef Name="None" ID="{1C6205F7-1A1B-4AE3-82B3-5E43B282E2E7}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

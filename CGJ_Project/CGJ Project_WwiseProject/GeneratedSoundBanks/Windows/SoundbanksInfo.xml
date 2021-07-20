@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\CGJ Project\CGJ Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\CGJ Project\CGJ Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\CGJ Project\CGJ Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="540437231">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="2453052416" Name="Game_Status" ObjectPath="\States\Default Work Unit\Game_Status">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_Status\None"/>
+						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Game_Status\Win"/>
+						<State Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Game_Status\Lose"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3421738617">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1705054052" Name="Chara_Injured" ObjectPath="\Events\Default Work Unit\Chara_Injured" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="52701716" Language="SFX">
+							<ShortName>Chara_Injured 01.wav</ShortName>
+							<Path>SFX\Chara_Injured 01_10C4C929.wem</Path>
+						</File>
+						<File Id="528246177" Language="SFX">
+							<ShortName>Chara_Injured 02.wav</ShortName>
+							<Path>SFX\Chara_Injured 02_10C4C929.wem</Path>
+						</File>
+						<File Id="666264477" Language="SFX">
+							<ShortName>Chara_Injured 03.wav</ShortName>
+							<Path>SFX\Chara_Injured 03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3083640288" Name="Derailment" ObjectPath="\Events\Default Work Unit\Train_Status\Derailment" DurationType="OneShot" DurationMin="2.125000" DurationMax="2.125000">
+					<IncludedMemoryFiles>
+						<File Id="241598865" Language="SFX">
+							<ShortName>Derailment_L3_Impact_02.wav</ShortName>
+							<Path>SFX\Derailment_L3_Impact_02_10C4C929.wem</Path>
+						</File>
+						<File Id="385093910" Language="SFX">
+							<ShortName>Derailment_L2_Rattling 02.wav</ShortName>
+							<Path>SFX\Derailment_L2_Rattling 02_10C4C929.wem</Path>
+						</File>
+						<File Id="487804509" Language="SFX">
+							<ShortName>Derailment_L3_Impact_01.wav</ShortName>
+							<Path>SFX\Derailment_L3_Impact_01_10C4C929.wem</Path>
+						</File>
+						<File Id="815183951" Language="SFX">
+							<ShortName>Derailment_L1_Air.wav</ShortName>
+							<Path>SFX\Derailment_L1_Air_10C4C929.wem</Path>
+						</File>
+						<File Id="1007903100" Language="SFX">
+							<ShortName>Derailment_L3_Impact_03.wav</ShortName>
+							<Path>SFX\Derailment_L3_Impact_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3083640288" Name="Derailment" ObjectPath="\States\Default Work Unit\Train_Status\Derailment"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2493820597" Name="Fuel_Add" ObjectPath="\Events\Default Work Unit\Fuel\Fuel_Add" DurationType="OneShot" DurationMin="0.297302" DurationMax="0.333710">
+					<IncludedMemoryFiles>
+						<File Id="407620319" Language="SFX">
+							<ShortName>Add_Fuel 03.wav</ShortName>
+							<Path>SFX\Add_Fuel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="614670441" Language="SFX">
+							<ShortName>Add_Fuel 02.wav</ShortName>
+							<Path>SFX\Add_Fuel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="641442324" Language="SFX">
+							<ShortName>Add_Fuel 04.wav</ShortName>
+							<Path>SFX\Add_Fuel 04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2080029592" Name="Fuel_Pickup" ObjectPath="\Events\Default Work Unit\Fuel\Fuel_Pickup" DurationType="OneShot" DurationMin="0.542630" DurationMax="0.724324">
+					<IncludedMemoryFiles>
+						<File Id="397392419" Language="SFX">
+							<ShortName>确定、行动决定、决策.wav</ShortName>
+							<Path>SFX\确定、行动决定、决策_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4158285989" Name="Gameover" ObjectPath="\Events\Default Work Unit\Game\Gameover" DurationType="OneShot" DurationMin="2.125000" DurationMax="2.125000">
+					<IncludedMemoryFiles>
+						<File Id="385093910" Language="SFX">
+							<ShortName>Derailment_L2_Rattling 02.wav</ShortName>
+							<Path>SFX\Derailment_L2_Rattling 02_10C4C929.wem</Path>
+						</File>
+						<File Id="815183951" Language="SFX">
+							<ShortName>Derailment_L1_Air.wav</ShortName>
+							<Path>SFX\Derailment_L1_Air_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Game_Status\Lose"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1980802545" Name="Initialization" ObjectPath="\Events\Default Work Unit\Initialization" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="117152261" Language="SFX">
+							<ShortName>A.wav</ShortName>
+							<Path>SFX\A_D79FB2B7.wem</Path>
+						</File>
+						<File Id="192686485" Language="SFX">
+							<ShortName>Horn.wav</ShortName>
+							<Path>SFX\Horn_10C4C929.wem</Path>
+						</File>
+						<File Id="250253401" Language="SFX">
+							<ShortName>火车正常行驶.wav</ShortName>
+							<Path>SFX\火车正常行驶_D79FB2B7.wem</Path>
+						</File>
+						<File Id="463683052" Language="SFX">
+							<ShortName>B.wav</ShortName>
+							<Path>SFX\B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="506079094" Language="SFX">
+							<ShortName>Win.wav</ShortName>
+							<Path>SFX\Win_D79FB2B7.wem</Path>
+						</File>
+						<File Id="526350383" Language="SFX">
+							<ShortName>C.wav</ShortName>
+							<Path>SFX\C_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{A27698E9-E10B-40F6-98C5-615930A73AF1}">
+							<Media>
+								<File Id="506079094"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CDCD5B18-159B-4C5B-B942-B5B8AD373DEB}">
+							<Media>
+								<File Id="117152261"/>
+								<File Id="463683052"/>
+								<File Id="526350383"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{193ED6FA-5FF2-4E46-AF4D-8563B8705FC8}">
+							<Media>
+								<File Id="117152261"/>
+								<File Id="463683052"/>
+								<File Id="526350383"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Train_Status\None"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1912353221" Name="Initialization_no_music" ObjectPath="\Events\Default Work Unit\Initialization_no_music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="192686485" Language="SFX">
+							<ShortName>Horn.wav</ShortName>
+							<Path>SFX\Horn_10C4C929.wem</Path>
+						</File>
+						<File Id="250253401" Language="SFX">
+							<ShortName>火车正常行驶.wav</ShortName>
+							<Path>SFX\火车正常行驶_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Train_Status\None"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3376415477" Name="Light_Off" ObjectPath="\Events\Default Work Unit\Light\Light_Off" DurationType="OneShot" DurationMin="0.250000" DurationMax="0.250000">
+					<IncludedMemoryFiles>
+						<File Id="613804908" Language="SFX">
+							<ShortName>Light_Off.wav</ShortName>
+							<Path>SFX\Light_Off_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3674512137" Name="Light_On" ObjectPath="\Events\Default Work Unit\Light\Light_On" DurationType="OneShot" DurationMin="0.250000" DurationMax="0.250000">
+					<IncludedMemoryFiles>
+						<File Id="678404935" Language="SFX">
+							<ShortName>Light_On.wav</ShortName>
+							<Path>SFX\Light_On_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851453362" Name="Obstacle_Break" ObjectPath="\Events\Default Work Unit\Obstacle_Break" DurationType="OneShot" DurationMin="1.122462" DurationMax="1.122462">
+					<IncludedMemoryFiles>
+						<File Id="326914590" Language="SFX">
+							<ShortName>Obstacle Break 02.wav</ShortName>
+							<Path>SFX\Obstacle Break 02_10C4C929.wem</Path>
+						</File>
+						<File Id="443915979" Language="SFX">
+							<ShortName>Obstacle Break 01.wav</ShortName>
+							<Path>SFX\Obstacle Break 01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3859834159" Name="Return" ObjectPath="\Events\Default Work Unit\Train_Status\Return" DurationType="OneShot" DurationMin="1.999333" DurationMax="1.999333">
+					<IncludedMemoryFiles>
+						<File Id="131710110" Language="SFX">
+							<ShortName>Return - L1_Metal_01.wav</ShortName>
+							<Path>SFX\Return - L1_Metal_01_10C4C929.wem</Path>
+						</File>
+						<File Id="559648819" Language="SFX">
+							<ShortName>Return - L2_Lock _02.wav</ShortName>
+							<Path>SFX\Return - L2_Lock _02_10C4C929.wem</Path>
+						</File>
+						<File Id="773043965" Language="SFX">
+							<ShortName>Return - L1_Metal_03.wav</ShortName>
+							<Path>SFX\Return - L1_Metal_03_10C4C929.wem</Path>
+						</File>
+						<File Id="789150206" Language="SFX">
+							<ShortName>Return - L1_Metal_02.wav</ShortName>
+							<Path>SFX\Return - L1_Metal_02_10C4C929.wem</Path>
+						</File>
+						<File Id="981747319" Language="SFX">
+							<ShortName>Return - L2_Lock_01.wav</ShortName>
+							<Path>SFX\Return - L2_Lock_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Train_Status\None"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="979765101" Name="Win" ObjectPath="\Events\Default Work Unit\Game\Win" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Game_Status\Win"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="640949982" Name="Speed" ObjectPath="\Game Parameters\Default Work Unit\Speed"/>
+				<GameParameter Id="2661514705" Name="Fuel" ObjectPath="\Game Parameters\Default Work Unit\Fuel"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Game_Status\Lose">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Train_Status\None">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Game_Status\Win">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2453052416" Name="Game_Status" ObjectPath="\States\Default Work Unit\Game_Status">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_Status\None"/>
+						<State Id="979765101" Name="Win" ObjectPath="\States\Default Work Unit\Game_Status\Win"/>
+						<State Id="221232726" Name="Lose" ObjectPath="\States\Default Work Unit\Game_Status\Lose"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3083640288" Name="Derailment" ObjectPath="\States\Default Work Unit\Train_Status\Derailment">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

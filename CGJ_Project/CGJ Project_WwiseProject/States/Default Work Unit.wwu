@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3224A318-085B-448C-BC56-976507AF3351}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{3224A318-085B-448C-BC56-976507AF3351}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Train_Status" ID="{24F99D54-2485-4EED-B951-071B7BE9E8F3}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{1C6205F7-1A1B-4AE3-82B3-5E43B282E2E7}"/>
+						<State Name="Derailment" ID="{2EDF7BA2-F74E-46F1-AD2D-6567DAC17E42}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Derailment" ID="{2EDF7BA2-F74E-46F1-AD2D-6567DAC17E42}"/>
+							<EndState Name="None" ID="{1C6205F7-1A1B-4AE3-82B3-5E43B282E2E7}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{1C6205F7-1A1B-4AE3-82B3-5E43B282E2E7}"/>
+							<EndState Name="Derailment" ID="{2EDF7BA2-F74E-46F1-AD2D-6567DAC17E42}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Game_Status" ID="{D0B7C154-2E1C-46AF-8FE8-8EC89ACE3B48}">
+					<ChildrenList>
+						<State Name="None" ID="{CDCD5B18-159B-4C5B-B942-B5B8AD373DEB}"/>
+						<State Name="Win" ID="{A27698E9-E10B-40F6-98C5-615930A73AF1}"/>
+						<State Name="Lose" ID="{193ED6FA-5FF2-4E46-AF4D-8563B8705FC8}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

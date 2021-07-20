@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7BB41F79-BC7E-4832-AF34-45574101B104}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{7BB41F79-BC7E-4832-AF34-45574101B104}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{6D804E70-5E14-48FD-9FB4-D10B95E710EF}" WorkUnitID="{3B8E18FB-79BD-43FC-9F5B-FDEACD5F7017}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{C6A71387-13A1-4944-8708-517E519A80CF}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{AAA9299F-04AA-4834-8E7C-11F5FBA34DD0}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Game_Status" ID="{D0B7C154-2E1C-46AF-8FE8-8EC89ACE3B48}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Win" ID="{A27698E9-E10B-40F6-98C5-615930A73AF1}"/>
+								<CustomState Name="" ID="{3CC721CB-E6AB-4021-8A7E-9D12C3E2ED98}" ShortID="901546246"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Lose" ID="{193ED6FA-5FF2-4E46-AF4D-8563B8705FC8}"/>
+								<CustomState Name="" ID="{A21866D3-46C0-42BE-86F1-100D19878EB4}" ShortID="930414264">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64" Value="1"/>
+										<Property Name="Lowpass" Type="int16" Value="55"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

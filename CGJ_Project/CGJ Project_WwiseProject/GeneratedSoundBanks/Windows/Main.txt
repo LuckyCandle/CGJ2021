@@ -1,0 +1,62 @@
+Event	ID	Name			Wwise Object Path	Notes
+	979765101	Win			\Default Work Unit\Game\Win	
+	1705054052	Chara_Injured			\Default Work Unit\Chara_Injured	
+	1912353221	Initialization_no_music			\Default Work Unit\Initialization_no_music	
+	1980802545	Initialization			\Default Work Unit\Initialization	
+	2080029592	Fuel_Pickup			\Default Work Unit\Fuel\Fuel_Pickup	
+	2493820597	Fuel_Add			\Default Work Unit\Fuel\Fuel_Add	
+	2851453362	Obstacle_Break			\Default Work Unit\Obstacle_Break	
+	3083640288	Derailment			\Default Work Unit\Train_Status\Derailment	
+	3376415477	Light_Off			\Default Work Unit\Light\Light_Off	
+	3674512137	Light_On			\Default Work Unit\Light\Light_On	
+	3859834159	Return			\Default Work Unit\Train_Status\Return	
+	4158285989	Gameover			\Default Work Unit\Game\Gameover	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2453052416	Game_Status			\Default Work Unit\Game_Status	
+	2672297998	Train_Status			\Default Work Unit\Train_Status	
+
+State	ID	Name	State Group			Notes
+	221232726	Lose	Game_Status			
+	748895195	None	Game_Status			
+	979765101	Win	Game_Status			
+	748895195	None	Train_Status			
+	3083640288	Derailment	Train_Status			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	606183888	Derailment	Train_Status	\Interactive Music Hierarchy\Default Work Unit\Train Normal Drive\Train Normal Drive		
+	654725997	Derailment	Train_Status	\Interactive Music Hierarchy\Default Work Unit\Music\BGM\BGM\B		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	640949982	Speed			\Default Work Unit\Speed	
+	2661514705	Fuel			\Default Work Unit\Fuel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52701716	Chara_Injured 01	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Chara_Injured 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chara_Injured\Chara_Injured 01		96064
+	117152261	A	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\A_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\BGM\BGM\A		14452432
+	131710110	Return - L1_Metal_01	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Return - L1_Metal_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Return\Return_L1_Metal\Return - L1_Metal_01		383936
+	192686485	Horn	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Horn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Horn		767936
+	241598865	Derailment_L3_Impact_02	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Derailment_L3_Impact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Derailment\Derailment_L3_Impact\Derailment_L3_Impact_02		144064
+	250253401	火车正常行驶	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\火车正常行驶_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Train Normal Drive\Train Normal Drive\火车正常行驶		5375936
+	326914590	Obstacle Break 02	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Obstacle Break 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacle_Break\Obstacle Break 02		192064
+	385093910	Derailment_L2_Rattling	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Derailment_L2_Rattling 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Derailment\Derailment_L2_Rattling		408064
+	397392419	Fuel_Pickup_C	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\确定、行动决定、决策_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Fuel_Pickup\Fuel_Pickup_C		208432
+	407620319	Add_Fuel 02	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Add_Fuel 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Fuel_Add\Add_Fuel 02		96064
+	443915979	Obstacle Break 01	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Obstacle Break 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Obstacle_Break\Obstacle Break 01		192064
+	463683052	B	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\BGM\BGM\B		14452432
+	487804509	Derailment_L3_Impact_01	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Derailment_L3_Impact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Derailment\Derailment_L3_Impact\Derailment_L3_Impact_01		144064
+	506079094	Win	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Win_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Win\Win		1675704
+	526350383	C	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\C_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\BGM\BGM\C		14452432
+	528246177	Chara_Injured 02	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Chara_Injured 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chara_Injured\Chara_Injured 02		96064
+	559648819	Return - L2_Lock_02	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Return - L2_Lock _02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Return\Return_L2_Lock\Return - L2_Lock_02		240064
+	613804908	Light_Off	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Light_Off_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Light\Light_Off		48064
+	614670441	Add_Fuel 01	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Add_Fuel 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Fuel_Add\Add_Fuel 01		96064
+	641442324	Add_Fuel 03	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Add_Fuel 04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel\Fuel_Add\Add_Fuel 03		96064
+	666264477	Chara_Injured 03	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Chara_Injured 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chara_Injured\Chara_Injured 03		96064
+	678404935	Light_On	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Light_On_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Light\Light_On		48064
+	773043965	Return - L1_Metal_03	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Return - L1_Metal_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Return\Return_L1_Metal\Return - L1_Metal_03		383936
+	789150206	Return - L1_Metal_02	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Return - L1_Metal_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Return\Return_L1_Metal\Return - L1_Metal_02		383936
+	815183951	Derailment_L1_Air	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Derailment_L1_Air_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Derailment\Derailment_L1_Air		408064
+	981747319	Return - L2_Lock_01	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Return - L2_Lock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Return\Return_L2_Lock\Return - L2_Lock_01		240064
+	1007903100	Derailment_L3_Impact_03	E:\CGJ Project\CGJ Project_WwiseProject\.cache\Windows\SFX\Derailment_L3_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Derailment\Derailment_L3_Impact\Derailment_L3_Impact_03		144064
+

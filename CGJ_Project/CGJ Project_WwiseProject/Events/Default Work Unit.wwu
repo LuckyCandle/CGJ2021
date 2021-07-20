@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{CE4F282C-43D8-4751-AFDA-1D39C26F13E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Initialization" ID="{B87F2085-151D-4DA2-94ED-AA2E42BAF881}">
+					<ChildrenList>
+						<Action Name="" ID="{8BFCF407-E672-4BB7-A46B-5953AF456E13}" ShortID="312496304">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{9EB853F3-968E-44CD-A73A-B1D1A15C484D}" ShortID="54049593">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{1C6205F7-1A1B-4AE3-82B3-5E43B282E2E7}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A9315BFC-D422-4A88-ACD2-7A3291E3F8DD}" ShortID="456341726">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{CDCD5B18-159B-4C5B-B942-B5B8AD373DEB}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F474DA4-5C78-4E93-92C9-810795CF66E2}" ShortID="200063095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Train Normal Drive" ID="{BDDA0C0A-EAC7-4C14-B094-C777A6EFEE7D}" WorkUnitID="{91D0E118-A6E1-47A9-BB30-F074AA46CC3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4CDF9F8B-0E89-4848-8A57-7733CB7F4D1D}" ShortID="213777977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Horn" ID="{C6D0F92A-1A36-4A1F-88D5-4D07348062F1}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1957EF0D-CD2A-4034-A571-1987DB4FA7A9}" ShortID="628723452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{644EA24E-9CA8-45F2-B8FE-951C0ABE81D6}" WorkUnitID="{91D0E118-A6E1-47A9-BB30-F074AA46CC3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Train_Status" ID="{E47E3ADE-2F47-44F1-9FF4-6124F3943358}" ShortID="711933128">
+					<ChildrenList>
+						<Event Name="Return" ID="{C87E2531-38FF-4C86-AED2-365BAD6F7601}">
+							<ChildrenList>
+								<Action Name="" ID="{16D6DECB-A3D3-48CF-8FD0-31692ECF0F4B}" ShortID="357825005">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="None" ID="{1C6205F7-1A1B-4AE3-82B3-5E43B282E2E7}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4F6E2B93-139B-4214-A76E-C755F97422B6}" ShortID="951759465">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L1_Air" ID="{4DAFE616-9144-44B0-9717-83213D4A7D8A}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B02837D8-5FC1-4EDB-BB6B-AA8E7E7FDB69}" ShortID="544932704">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L2_Rattling" ID="{6556D447-DC4E-4747-9AD1-7F6F33F97271}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0F90DA8E-C79C-4CC3-BD25-B0EE4F166B99}" ShortID="518049835">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L3_Impact" ID="{2E88C10A-D0AC-4DCC-9E51-A8328D84DDF0}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{54888E83-889B-45B2-AA91-F786960F31BB}" ShortID="214418228">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Return_L1_Metal" ID="{3C83D20F-8E44-410C-9466-2DF06B5206C2}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C9DC5927-FEB7-4939-A882-1AE79B35D027}" ShortID="68847980">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Return_L2_Lock" ID="{C57B36C0-32E9-4D6F-B57B-E644CF746B91}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Derailment" ID="{BE226DD0-5CE1-456A-A4F0-FC54CDD7CB9A}">
+							<ChildrenList>
+								<Action Name="" ID="{D86A82D8-6652-4B4D-87C3-8F61D8DCBEC6}" ShortID="264266761">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment" ID="{2EDF7BA2-F74E-46F1-AD2D-6567DAC17E42}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{152CA779-2721-41D1-96FF-1AFA89CF543E}" ShortID="930333378">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Return_L1_Metal" ID="{3C83D20F-8E44-410C-9466-2DF06B5206C2}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{118F36D0-11BD-4643-83EF-C4B041B85D21}" ShortID="988383915">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Return_L2_Lock" ID="{C57B36C0-32E9-4D6F-B57B-E644CF746B91}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DE977C01-FC2D-4A77-A4B5-589BDF30F2E0}" ShortID="329534360">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L1_Air" ID="{4DAFE616-9144-44B0-9717-83213D4A7D8A}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{161A5E8E-79FE-487B-BB1A-BE7E81A117B3}" ShortID="338773657">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L2_Rattling" ID="{6556D447-DC4E-4747-9AD1-7F6F33F97271}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{53259043-EE11-40AD-8BAE-6837B976C9AF}" ShortID="190177925">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L3_Impact" ID="{2E88C10A-D0AC-4DCC-9E51-A8328D84DDF0}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Light" ID="{3BADFA20-AECA-4F66-90DC-EADD27C894AA}" ShortID="61613984">
+					<ChildrenList>
+						<Event Name="Light_On" ID="{4840DF32-AF1D-4C5A-A9BD-984BB9CED444}">
+							<ChildrenList>
+								<Action Name="" ID="{0D82D8C9-62E2-4BD2-9DC9-DCE5FD0B4C61}" ShortID="546740543">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light_On" ID="{7CEA9F83-9316-465B-B431-31B42649CF79}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Light_Off" ID="{A8764CE0-B750-4C73-A221-F1A65D51C575}">
+							<ChildrenList>
+								<Action Name="" ID="{561BB3A7-F4FE-4CB4-A5AF-B62FF3D68598}" ShortID="60715930">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light_Off" ID="{935363A4-CB85-40E6-A758-A2638B7C3137}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Fuel" ID="{0EE39CC5-C1DC-4EDB-818F-C6B90DB015DE}" ShortID="1053192477">
+					<ChildrenList>
+						<Event Name="Fuel_Pickup" ID="{2E79C784-9FEB-4EBC-BAB8-51B2C6CE9F10}">
+							<ChildrenList>
+								<Action Name="" ID="{36D36C96-AC5F-441A-BF82-8B3A8578B97E}" ShortID="79561096">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fuel_Pickup" ID="{79483C51-8F47-4E32-83E4-D4F4E5AAA2AD}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fuel_Add" ID="{B44649D8-C2C7-4053-8539-69466F57B20B}">
+							<ChildrenList>
+								<Action Name="" ID="{96125FD0-494B-4B5A-A7CF-982DB9EEC414}" ShortID="880623470">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fuel_Add" ID="{D0CC5E6C-D49B-47F5-84D0-2EBEDEE10C23}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Obstacle_Break" ID="{45F8F3BC-59A2-498C-B330-A4A7875351F0}">
+					<ChildrenList>
+						<Action Name="" ID="{7B6E007C-24FB-4B24-B513-2B5A43B6D34B}" ShortID="367027921">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Obstacle_Break" ID="{B9E3EBF9-DACA-40FF-A326-B3FA54988778}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chara_Injured" ID="{E7B62C7F-70E9-4CB1-8926-1277C2B29572}">
+					<ChildrenList>
+						<Action Name="" ID="{4CB0A495-B162-4EC2-853B-86ABBCCC44CF}" ShortID="214082866">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chara_Injured" ID="{35B80DAF-501D-4E51-829B-B07F68171011}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Game" ID="{A45282BF-CA5E-4DA1-99E2-3FFA755555B6}" ShortID="963110335">
+					<ChildrenList>
+						<Event Name="Gameover" ID="{E12C11A2-AAE8-4E89-A6EF-82DF4359E031}">
+							<ChildrenList>
+								<Action Name="" ID="{3E6A1ED4-EADE-44DB-9053-34CAF3809C15}" ShortID="143982086">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lose" ID="{193ED6FA-5FF2-4E46-AF4D-8563B8705FC8}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A00ED529-CDF5-4108-B6E4-EDF9A7914BC4}" ShortID="103038558">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L1_Air" ID="{4DAFE616-9144-44B0-9717-83213D4A7D8A}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{909CB74E-022F-4A1E-9441-A74D9ABAAC46}" ShortID="283001717">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Derailment_L2_Rattling" ID="{6556D447-DC4E-4747-9AD1-7F6F33F97271}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Win" ID="{A38FC3F1-3ABC-47B7-91D6-0F589C5F7477}">
+							<ChildrenList>
+								<Action Name="" ID="{F9E8AFC6-89F9-421D-B221-1A8482348D6C}" ShortID="774615102">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Train Normal Drive" ID="{BDDA0C0A-EAC7-4C14-B094-C777A6EFEE7D}" WorkUnitID="{91D0E118-A6E1-47A9-BB30-F074AA46CC3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{860A3334-AA08-48DD-AC1D-90F6D98FDF82}" ShortID="117974194">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Win" ID="{A27698E9-E10B-40F6-98C5-615930A73AF1}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Initialization_no_music" ID="{FB050DFF-D477-4104-87AF-53A54C6FC28A}">
+					<ChildrenList>
+						<Action Name="" ID="{3467C687-5B20-42EF-B197-7AD20DB489FC}" ShortID="846289525">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{D4D7554F-3331-4A4A-99A0-B4960B103767}" ShortID="608233185">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{1C6205F7-1A1B-4AE3-82B3-5E43B282E2E7}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4B28FCE2-61B2-46B4-98BE-CEA280D6A544}" ShortID="833460791">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{CDCD5B18-159B-4C5B-B942-B5B8AD373DEB}" WorkUnitID="{3224A318-085B-448C-BC56-976507AF3351}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{000165C1-07A9-45DD-8DD2-CF4F6D578826}" ShortID="813802951">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Train Normal Drive" ID="{BDDA0C0A-EAC7-4C14-B094-C777A6EFEE7D}" WorkUnitID="{91D0E118-A6E1-47A9-BB30-F074AA46CC3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F059138C-2870-482F-A438-FB37BDF398B7}" ShortID="890576054">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Horn" ID="{C6D0F92A-1A36-4A1F-88D5-4D07348062F1}" WorkUnitID="{E84F0491-5734-4E29-BEBD-F7C1BC533119}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
